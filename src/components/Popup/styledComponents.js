@@ -9,3 +9,7 @@ export const TriggeringButton = styled.button`
   margin-bottom: 40px;
   font-family: 'Bree Serif';
 `
+export const PopupContainer = styled.div`
+  background-color: #ffffff;
+  padding: 30px;
+`

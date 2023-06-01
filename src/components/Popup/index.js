@@ -1,6 +1,6 @@
 import Popup from 'reactjs-popup'
 import {RiCloseLine} from 'react-icons/ri'
-import {TriggeringButton} from './styledComponents'
+import {TriggeringButton, PopupContainer} from './styledComponents'
 
 const ReactPopUp = () => (
   <div>
@@ -13,12 +13,12 @@ const ReactPopUp = () => (
           <TriggeringButton type="button" onClick={() => close()}>
             <RiCloseLine />
           </TriggeringButton>
-          <div>
+          <PopupContainer>
             <img
               src="https://assets.ccbp.in/frontend/react-js/rock-paper-scissor/rules-image.png"
               alt="rules"
             />
-          </div>
+          </PopupContainer>
         </>
       )}
     </Popup>

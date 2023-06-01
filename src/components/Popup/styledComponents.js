@@ -11,5 +11,14 @@ export const TriggeringButton = styled.button`
 `
 export const PopupContainer = styled.div`
   background-color: #ffffff;
-  padding: 30px;
+  background-size: cover;
+  height: 720px;
+  width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+export const PopupImage = styled.img`
+  height: 480px;
+  width: 500px;
 `
